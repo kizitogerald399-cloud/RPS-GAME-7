@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Rock Paper Scissors</title>
+      </head>
+      <link rel="stylesheet" href="games.css">
+      
+      <body class="body">
+     <div class="header">
+          <div class="title"><div class="par">ROCK</div>
+          <div class="par">PAPER</div>
+          <div class="par special">SCISSORS</div></div>
+        <div class="score-section">
+          <div>score</div>
+          <div id="score-value">0</div>
+         </div>
+        </div>
+       
+      <div class="grid">
+        <img src="images/bg-triangle.svg" class="bg-triangle">
+        <button id="rock" class="button rock"><img src="images/icon-rock.svg"></button>
+        <button id="paper" class="button paper"><img src="images/icon-paper.svg"></button>
+        <button id="scissors" class="button scissors"><img src="images/icon-scissors.svg"></button>
+       
+      </div>
+
+      <button class="rules">RULES</button>
+      <!-- game result selection -->
+      <div class="result hidden">
+        <div class="player">
+           <p >YOU PICKED</p>
+        <div class="player-choice">
+          </div>
+        </div>
+        <div class="house">
+          <p>HOUSE PICKED</p>
+          <div class="house-choice">
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- <button onclick="score.wins = 0; score.losses = 0; score.ties = 0; updateScore();" class="buttonj">Resset Score</button>-->
+        
+      <!-- <p class="js-score">wins : 0 Losses:0 Ties:0</p> -->
+
+       
+    
+
+        <script src="games.js"></script>
+         
+        </script>
+
+      </body>
+      
+    </html>
