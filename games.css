@@ -207,3 +207,7 @@ body {
     background-color: red;
     padding:10;
   }
+  .clicked{
+    background-color: green;
+    border-radius:50%;
+  }
