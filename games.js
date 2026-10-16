@@ -43,31 +43,31 @@
  
  const buttonz = document.getElementById('style-btn')
 
-          buttonz.addEventListener('click', () => {
-            buttonz.classList.toggle('clicked');
-            if (buttonz.classList.contains('clicked')){
-              buttonz.textContent = "FOLLOWING";
+buttonz.addEventListener('click', () => {
+  buttonz.classList.toggle('clicked');
+  if (buttonz.classList.contains('clicked')){
+    buttonz.textContent = "FOLLOWING";
 
 
-            }else{
-              buttonz.textContent = "FOLLOW";
-            }
-            
-          });
+  }else{
+    buttonz.textContent = "FOLLOW";
+  }
+  
+});
 
  const mainDiv = document.getElementById('maindiv');
  const rulesbtn = document.getElementById('rules');
  const close = document.getElementById('close');
 
-rulesbtn.addEventListener('click', () =>{
+  rulesbtn.addEventListener('click', () =>{
   mainDiv.classList.add('active')
 });
  close.addEventListener('click', () =>{
-  mainDiv.classListener.remove('active')
+  mainDiv.classList.remove('active')
  });
  mainDiv.addEventListener('click', (event)=>{
   if(event.target ===mainDiv){
-    mainDiv.classListener.remove('active')
+    mainDiv.classList.remove('active')
   }
  });
  
