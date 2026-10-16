@@ -54,7 +54,22 @@
             }
             
           });
- 
+
+ const mainDiv = document.getElementById('maindiv');
+ const rulesbtn = document.getElementById('rules');
+ const close = document.getElementById('close');
+
+rulesbtn.addEventListener('click', () =>{
+  mainDiv.classList.add('active')
+});
+ close.addEventListener('click', () =>{
+  mainDiv.classListener.remove('active')
+ });
+ mainDiv.addEventListener('click', (event)=>{
+  if(event.target ===mainDiv){
+    mainDiv.classListener.remove('active')
+  }
+ });
  
  
  
