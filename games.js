@@ -41,7 +41,19 @@
 */
  
  
- 
+ const buttonz = document.getElementById('style-btn')
+
+          buttonz.addEventListener('click', () => {
+            buttonz.classList.toggle('clicked');
+            if (buttonz.classList.contains('clicked')){
+              buttonz.textContent = "FOLLOWING";
+
+
+            }else{
+              buttonz.textContent = "FOLLOW";
+            }
+            
+          });
  
  
  

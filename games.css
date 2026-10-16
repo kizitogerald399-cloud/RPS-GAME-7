@@ -202,3 +202,8 @@ body {
   border-radius: 50%;
   background-color: white;
   border-color:blue;}
+  .buttonz {
+    color:white;
+    background-color: red;
+    padding:10;
+  }
